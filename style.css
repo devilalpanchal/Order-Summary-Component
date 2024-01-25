@@ -1,0 +1,108 @@
+********************* Universal selector ********************
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:white;
+}
+
+/********************** main-content *********************/
+.hide {
+    display: none;
+}
+
+
+.main-container{
+   background-image: url('./images/pattern-background-desktop.svg');
+   display: flex;
+   margin-left: 100px;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-repeat: no-repeat;
+}
+/********************** image1 *********************/
+
+.image2 {
+    border-radius: 12px 12px 0px 0px;
+    width: 400px;
+    height: 180px;
+}
+
+/********************** content *********************/
+.content {
+    border: 2px rgb(252, 245, 245) solid;
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 570px;
+    box-shadow: 1px 1px 10px 10px rgb(211, 224, 223);
+    border-radius: 12px;
+}
+
+.header {
+    margin: 15px;
+    margin-left: 100px;
+}
+
+.p1 {
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.name {
+    display: flex;
+    border: 1px rgb(233, 225, 212) solid;
+    border-radius: 12px;
+    margin: 15px;
+    height: 70px;
+    width: 307px;
+    gap: 40px;
+    padding: 17px;
+    margin-left: 30px;
+    background-color: #eeeeee8e;
+}
+
+.btn1 {
+    margin: 15px;
+    margin-left: 100px;
+    width: 340px;
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    background-color: blue;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.image3{
+    margin-top: 20px;
+}
+
+
+.Change{
+    color: blue;
+    margin-top: 30px;
+}
+
+.fotter {
+    margin: 15px;
+    margin-left: 150px;
+}
+
+
+/* .attribution {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: gray;
+} */
