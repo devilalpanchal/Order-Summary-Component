@@ -21,7 +21,6 @@ body {
 .main-container{
    background-image: url('./images/pattern-background-desktop.svg');
    display: flex;
-   margin-left: 100px;
    align-items: center;
    justify-content: center;
    height: 100vh;
